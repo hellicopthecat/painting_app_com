@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Meme Makker</title>
+
+
+</head>
+<body>
+    <div class="color-options">
+        <input id="color" type="color" />
+        <div class="color-option" style="background-color: #FFC312;" data-color="#FFC312"></div>
+        <div class="color-option" style="background-color: #C4E538;" data-color="#C4E538"></div>
+        <div class="color-option" style="background-color: #12CBC4;" data-color="#12CBC4"></div>
+        <div class="color-option" style="background-color: #FDA7DF;" data-color="#FDA7DF"></div>
+        <div class="color-option" style="background-color: #ED4C67;" data-color="#ED4C67"></div>
+        <div class="color-option" style="background-color: #F79F1F;" data-color="#F79F1F"></div>
+        <div class="color-option" style="background-color: #A3CB38;" data-color="#A3CB38"></div>
+        <div class="color-option" style="background-color: #1289A7;" data-color="#1289A7"></div>
+        <div class="color-option" style="background-color: #D980FA;" data-color="#D980FA"></div>
+        <div class="color-option" style="background-color: #B53471;" data-color="#B53471"></div>
+        <div class="color-option" style="background-color: #EE5A24;" data-color="#EE5A24"></div>
+        <div class="color-option" style="background-color: #009432;" data-color="#009432"></div>
+        <div class="color-option" style="background-color: #0652DD;" data-color="#0652DD"></div>
+        <div class="color-option" style="background-color: #9980FA;" data-color="#9980FA"></div>
+        <div class="color-option" style="background-color: #833471;" data-color="#833471"></div>
+        <div class="color-option" style="background-color: #EA2027;" data-color="#EA2027"></div>
+        <div class="color-option" style="background-color: #006266;" data-color="#006266"></div>
+        <div class="color-option" style="background-color: #1B1464;" data-color="#1B1464"></div>
+        <div class="color-option" style="background-color: #5758BB;" data-color="#5758BB"></div>
+        <div class="color-option" style="background-color: #6F1E51;" data-color="#6F1E51"></div>
+    </div>
+
+    <canvas></canvas>
+
+    <div class="btns">
+
+        <span>
+            Pencil Width
+            <input id="line-width" type="range" min="1" max="100" value="50" step="5"/>
+        </span>
+        <button id="mode-btn">Fill</button>
+        <button id="eraseAll-btn">Eraser All</button>
+        <button id="eraseSection-btn">Eraser</button>
+        <label for="img-file">
+            Add Photo
+            <input type="file" accept="image/*" id="img-file">
+        </label>
+        <input type="text" placeholder="Write and then double click" id="text">
+        <button id="savedata">Save Image</button>
+    </div>
+   
+
+    <script src="app.js"></script>
+</body>
+</html>
